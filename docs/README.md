@@ -1,10 +1,19 @@
-# Math formulas
-## Area
-- Circle: S = πR²
-- Rectangle: S = ab
-- Square: S = a²
+# geometric_lib
 
-## Perimeter
-- Circle: P = 2πR
-- Rectangle: P = 2a + 2b
-- Square: P = 4a
+`geometric_lib` - Python-модуль для выполнения различных расчетов, связанных с
+геометрическими фигурами.
+
+Модуль содержит в себе несколько подмодулей:
+
+- [`geometric_lib.square`](./square.md)
+- [`geometric_lib.circle`](./circle.md)
+- [`geometric_lib.rectangle`](./rectangle.md)
+
+См. документацию данных подмодулей.
+
+## История изменений
+
+- `363a60`: Добавлен подмодуль для прямоугольника
+- `99e94e`: Добавлена документация внутри кода
+- `d078c8`: Добавлена документация
+- `8ba9ae`: Добавлены подмодули для окружности и квадрата
