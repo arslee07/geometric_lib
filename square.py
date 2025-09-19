@@ -1,7 +1,35 @@
+"""A set of formulas for square."""
 
-def area(a):
+from typing import TypeVar
+
+T = TypeVar("T", int, float)
+
+
+def area(a: T) -> T:
+    """Get square area.
+
+    The following formula is used: S = a^2
+
+    Args:
+        a: Square side.
+
+    Returns:
+        Square area.
+    """
+
     return a * a
 
 
-def perimeter(a):
+def perimeter(a: T) -> T:
+    """Get square perimeter.
+
+    The following formula is used: P = 4 * a
+
+    Args:
+        a: Square side.
+
+    Returns:
+        Square perimeter.
+    """
+
     return 4 * a
