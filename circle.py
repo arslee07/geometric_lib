@@ -6,7 +6,7 @@ import math
 def area(r: int | float) -> float:
     """Get circle area.
 
-    The following formula is used: S = pi * r^2
+    The following formula is used: S = pi * r^2, where S is the returned result and pi is a constant.
 
     Args:
         r: Circle radius.
@@ -21,7 +21,7 @@ def area(r: int | float) -> float:
 def perimeter(r: int | float) -> float:
     """Get circle perimeter.
 
-    The following formula is used: P = 2 * pi * r
+    The following formula is used: P = 2 * pi * r,  where P is the returned result and pi is a constant.
 
     Args:
         r: Circle radius.

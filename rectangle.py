@@ -8,7 +8,7 @@ T = TypeVar("T", int, float)
 def area(a: T, b: T) -> T:
     """Get rectangle area.
 
-    The following formula is used: S = a * b
+    The following formula is used: S = a * b, where S is the returned result.
 
     Args:
         a: Rectangle width.
@@ -24,7 +24,7 @@ def area(a: T, b: T) -> T:
 def perimeter(a: T, b: T) -> T:
     """Get rectangle perimeter.
 
-    The following formula is used: P = (a + b) * 2
+    The following formula is used: P = (a + b) * 2, where is P is the returned result.
 
     Args:
         a: Rectangle width.

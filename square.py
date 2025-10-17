@@ -8,7 +8,7 @@ T = TypeVar("T", int, float)
 def area(a: T) -> T:
     """Get square area.
 
-    The following formula is used: S = a^2
+    The following formula is used: S = a^2, where S is the returned result.
 
     Args:
         a: Square side length.
@@ -23,7 +23,7 @@ def area(a: T) -> T:
 def perimeter(a: T) -> T:
     """Get square perimeter.
 
-    The following formula is used: P = 4 * a
+    The following formula is used: P = 4 * a, where P is the returned result.
 
     Args:
         a: Square side length.
