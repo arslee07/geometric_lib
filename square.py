@@ -11,7 +11,7 @@ def area(a: T) -> T:
     The following formula is used: S = a^2
 
     Args:
-        a: Square side.
+        a: Square side length.
 
     Returns:
         Square area.
@@ -26,7 +26,7 @@ def perimeter(a: T) -> T:
     The following formula is used: P = 4 * a
 
     Args:
-        a: Square side.
+        a: Square side length.
 
     Returns:
         Square perimeter.
